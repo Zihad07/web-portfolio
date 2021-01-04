@@ -1,7 +1,50 @@
 /* Utility Style */
 body {
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+.container {
+    padding: 2%;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.w-50-par {
+    width: 50%;
+}
+
+.w-75-par {
+    width: 75%;
+}
+
+.w-25-par {
+    width: 25%
+}
+
+.float-left {
+    float: left;
+}
+
+img {
+    max-width: 100%;
+}
+
 /* Utility Style end */
 
-.name-heilight { color: orange;}
+.name-heilight {
+    color: orange;
+}
+
+.banner-section {
+    height: 600px;
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    /* border: 1px solid red; */
+
+}
