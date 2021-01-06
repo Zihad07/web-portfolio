@@ -15,7 +15,9 @@ a {
 }
 
 .clearfix {
-    overflow: auto;
+    overflow: "";
+    clear: both;
+    display: table;
 }
 
 h1 {
@@ -46,6 +48,9 @@ pl-5 {
 .w-50-par {
     width: 50%;
 }
+.w-35-par {
+    width: 40%;
+}
 
 .w-75-par {
     width: 75%;
@@ -63,7 +68,7 @@ pl-5 {
     display: inline-block;
     padding: 10px 20px;
     background: orange;
-    background: linear-gradient(45deg, orange, red);
+    background: (45deg, orange, red);
     color: white;
     border-radius: 3px;
     font-weight: 500;
@@ -80,7 +85,7 @@ img {
 
 /* Utility Style end */
 
-.name-heilight {
+.orange-heilight {
     color: orange;
 }
 
@@ -104,4 +109,47 @@ img {
 
     /* border: 1px solid red; */
 
+}
+
+.experience-section {
+    height: 500px;
+
+    background-image: url('./images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left center;
+    
+}
+
+.single-experience {
+    box-shadow: 5px 5px 10px grey;
+    height: 80%;
+    padding: 20px 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+    border-radius: 5px;
+
+    background-color: white;
+   
+
+    /* */
+}
+
+#full-stack {
+    border-left: 10px solid ;
+    border-image: linear-gradient(orange, red);
+    border-image-slice: 1;
+}
+#baby-web {
+    border-left: 10px solid ;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 12px;
+    
 }
